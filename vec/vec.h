@@ -5,12 +5,12 @@ typedef struct {
     float x;
     float y;
     float z;
-} vector3f;
+} vector3f_t;
 
-void sum(vector3f* v1, vector3f* v2, vector3f* out);
-void sub(vector3f* v1, vector3f* v2, vector3f* out);
-float dot(vector3f* v1, vector3f* v2);
-void cross(vector3f* v1, vector3f* v2, vector3f* out);
+void sum(vector3f_t* v1, vector3f_t* v2, vector3f_t* out);
+void sub(vector3f_t* v1, vector3f_t* v2, vector3f_t* out);
+float dot(vector3f_t* v1, vector3f_t* v2);
+void cross(vector3f_t* v1, vector3f_t* v2, vector3f_t* out);
 
 
 #endif
